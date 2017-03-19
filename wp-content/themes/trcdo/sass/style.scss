@@ -47,10 +47,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
 
+// --------------------------------------------------------------
+// # Normalize
+// --------------------------------------------------------------
+// @import "normalize";
+
 /*--------------------------------------------------------------
-# Normalize
+# Foundation
 --------------------------------------------------------------*/
-@import "normalize";
+@import "foundation/foundation";
 
 /*--------------------------------------------------------------
 # Typography
@@ -106,8 +111,3 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
-
-/*--------------------------------------------------------------
-# Foundation
---------------------------------------------------------------*/
-@import "foundation/foundation";
